@@ -14,5 +14,4 @@ jobs:
       env:
         COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
       run: |
-        cd api
         composer lint
