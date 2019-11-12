@@ -1,0 +1,18 @@
+name: PHP CodeSniffer
+
+on: push
+
+jobs:
+  phpcs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Setup composer
+      uses: DekodeInteraktiv/actions/composer@master
+    - name: PHP CodeSniffer
+      env:
+        COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+      run: |
+        cd api
+        composer lint
