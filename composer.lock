@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e40813a11ff279b9ac2147ced8c4e63",
+    "content-hash": "c8ddc9bb28ba6584e9cf9b207de7f81d",
     "packages": [
         {
             "name": "composer/installers",
@@ -132,16 +132,16 @@
     "packages-dev": [
         {
             "name": "automattic/phpcs-neutron-standard",
-            "version": "v1.5.3",
+            "version": "v1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/phpcs-neutron-standard.git",
-                "reference": "040b7b7da1ed68939885affa91e84343bb1bf898"
+                "reference": "c0d00253c61901aae2bb0108cfa4ab9e94cd4cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/phpcs-neutron-standard/zipball/040b7b7da1ed68939885affa91e84343bb1bf898",
-                "reference": "040b7b7da1ed68939885affa91e84343bb1bf898",
+                "url": "https://api.github.com/repos/Automattic/phpcs-neutron-standard/zipball/c0d00253c61901aae2bb0108cfa4ab9e94cd4cfa",
+                "reference": "c0d00253c61901aae2bb0108cfa4ab9e94cd4cfa",
                 "shasum": ""
             },
             "require": {
@@ -171,7 +171,7 @@
                 }
             ],
             "description": "A set of phpcs sniffs for modern php development.",
-            "time": "2018-09-11T19:08:15+00:00"
+            "time": "2019-08-14T17:41:30+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -241,16 +241,16 @@
         },
         {
             "name": "dekodeinteraktiv/coding-standards",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DekodeInteraktiv/coding-standards.git",
-                "reference": "960fa1a5faf67d0669743ddd16a8251c01748994"
+                "reference": "8fb93759cd14c4ae7c8dea9404199884f43f5a1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DekodeInteraktiv/coding-standards/zipball/960fa1a5faf67d0669743ddd16a8251c01748994",
-                "reference": "960fa1a5faf67d0669743ddd16a8251c01748994",
+                "url": "https://api.github.com/repos/DekodeInteraktiv/coding-standards/zipball/8fb93759cd14c4ae7c8dea9404199884f43f5a1d",
+                "reference": "8fb93759cd14c4ae7c8dea9404199884f43f5a1d",
                 "shasum": ""
             },
             "require": {
@@ -265,20 +265,20 @@
                 "MIT"
             ],
             "description": "Dekode Coding Standards",
-            "time": "2019-01-17T12:08:08+00:00"
+            "time": "2019-11-13T08:08:18+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
-            "version": "9.3.3",
+            "version": "9.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCompatibility/PHPCompatibility.git",
-                "reference": "1af08ca3861048a8bfb39d0405d0ac3e50ba2696"
+                "reference": "1f37659196e4f3113ea506a7efba201c52303bf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/1af08ca3861048a8bfb39d0405d0ac3e50ba2696",
-                "reference": "1af08ca3861048a8bfb39d0405d0ac3e50ba2696",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/1f37659196e4f3113ea506a7efba201c52303bf1",
+                "reference": "1f37659196e4f3113ea506a7efba201c52303bf1",
                 "shasum": ""
             },
             "require": {
@@ -323,7 +323,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-11-11T03:25:23+00:00"
+            "time": "2019-11-15T04:12:02+00:00"
         },
         {
             "name": "phpcompatibility/phpcompatibility-paragonie",
