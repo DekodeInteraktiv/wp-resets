@@ -9,13 +9,11 @@ declare( strict_types=1 );
 namespace Dekode\MU;
 
 /**
- * Load MU text domain
+ * Load textdomain
+ * wp i18n make-pot ./ --slug=languages/dekode-mu --domain=dekode-mu --exclude=vendor
  */
 function load_mu_textdomain() {
-	$text_domain = 'dekode-mu';
-	$path        = trailingslashit( __DIR__ ) . '/languages/';
-	$mo_file     = $text_domain . '-' . get_locale() . '.mo';
-	load_textdomain( $text_domain, $path . $mo_file );
+	load_muplugin_textdomain( 'dekode-mu', 'dekode-mu-plugins/languages' );
 }
 add_action( 'muplugins_loaded', __NAMESPACE__ . '\load_mu_textdomain' );
 

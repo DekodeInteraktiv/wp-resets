@@ -1,0 +1,60 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-12-02T08:11:07+00:00\n"
+"PO-Revision-Date: 2019-12-02 09:13+0100\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: dekode-mu\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb_NO\n"
+
+#: theme-supports/admin-cards.php:36
+msgid "Archive image"
+msgstr "Bilde til utlisting"
+
+#: theme-supports/admin-cards.php:37
+msgid "Archive excerpt"
+msgstr "Ingress til utlisting"
+
+#: theme-supports/post-to-article.php:17 theme-supports/post-to-article.php:18
+#: theme-supports/post-to-article.php:31
+msgid "Articles"
+msgstr "Artikler"
+
+#: theme-supports/post-to-article.php:19
+msgid "Add Articles"
+msgstr "Legg til artikkel"
+
+#: theme-supports/post-to-article.php:32 theme-supports/post-to-article.php:36
+msgid "Article"
+msgstr "Artikkel"
+
+#: theme-supports/post-to-article.php:33 theme-supports/post-to-article.php:34
+msgid "Add Article"
+msgstr "Ny artikkel"
+
+#: theme-supports/post-to-article.php:35
+msgid "Edit Article"
+msgstr "Endre artikkel"
+
+#: theme-supports/post-to-article.php:37
+msgid "View Article"
+msgstr "Vis artikkel"
+
+#: theme-supports/post-to-article.php:38
+msgid "Search Articles"
+msgstr "Søk i artikler"
+
+#: theme-supports/post-to-article.php:39
+msgid "No Articles found"
+msgstr "Ingen artikler funnet"
+
+#: theme-supports/post-to-article.php:40
+msgid "No Articles found in Trash"
+msgstr "Ingen artikler funnet i søppelkurven"
