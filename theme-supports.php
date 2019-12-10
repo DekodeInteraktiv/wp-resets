@@ -25,5 +25,6 @@ function manage_theme_support() {
 	require_if_theme_supports( 'admin-cleanup', $base_path . 'admin-cleanup.php' );
 	require_if_theme_supports( 'admin-cards', $base_path . 'admin-cards.php' );
 	require_if_theme_supports( 'post-to-article', $base_path . 'post-to-article.php' );
+	require_if_theme_supports( 'searchwp-norwegian-stopwords', $base_path . 'searchwp/norwegian-stopwords.php' );
 }
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
