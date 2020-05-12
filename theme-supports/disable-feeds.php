@@ -2,7 +2,7 @@
 /**
  * Disable default Feeds
  *
- * @package Nasjonalbiblioteket
+ * @package Dekode\MU
  */
 
 declare( strict_types=1 );
