@@ -20,6 +20,7 @@ function manage_theme_support() {
 	require_if_theme_supports( 'disable-feeds', $base_path . 'disable-feeds.php' );
 	require_if_theme_supports( 'disable-xmlrpc', $base_path . 'disable-xmlrpc.php' );
 	require_if_theme_supports( 'optimize-embeds', $base_path . 'optimize-embeds.php' );
+	require_if_theme_supports( 'optimize-formats', $base_path . 'optimize-formats.php' );
 	require_if_theme_supports( 'optimize-yoast-schema', $base_path . 'optimize-yoast-schema.php' );
 	require_if_theme_supports( 'optimize-wp-head', $base_path . 'optimize-wp-head.php' );
 	require_if_theme_supports( 'admin-cleanup', $base_path . 'admin-cleanup.php' );
