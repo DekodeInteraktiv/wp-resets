@@ -8,6 +8,17 @@
 declare( strict_types=1 );
 namespace Dekode\MU;
 
+add_action( 'muplugins_loaded', __NAMESPACE__ . '\load_mu_textdomain' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
+
+/**
+ * Load textdomain
+ * wp i18n make-pot ./ --slug=languages/dekode-mu --domain=dekode-mu --exclude=vendor
+ */
+function load_mu_textdomain() {
+	load_muplugin_textdomain( 'dekode-mu', 'dekode-mu-plugins/languages' );
+}
+
 /**
  * Theme supports.
  */
@@ -32,4 +43,3 @@ function manage_theme_support() {
 	require_if_theme_supports( 'post-to-article', $base_path . 'post-to-article.php' );
 	require_if_theme_supports( 'searchwp-norwegian-stopwords', $base_path . 'searchwp/norwegian-stopwords.php' );
 }
-add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
