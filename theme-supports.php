@@ -23,6 +23,7 @@ function manage_theme_support() {
 	require_if_theme_supports( 'disable-emoji', $base_path . 'disable-emoji.php' );
 	require_if_theme_supports( 'disable-feeds', $base_path . 'disable-feeds.php' );
 	require_if_theme_supports( 'disable-xmlrpc', $base_path . 'disable-xmlrpc.php' );
+	require_if_theme_supports( 'disable-block-directory', $base_path . 'disable-block-directory.php' );
 	require_if_theme_supports( 'optimize-embeds', $base_path . 'optimize-embeds.php' );
 	require_if_theme_supports( 'optimize-yoast-schema', $base_path . 'optimize-yoast-schema.php' );
 	require_if_theme_supports( 'optimize-wp-head', $base_path . 'optimize-wp-head.php' );
