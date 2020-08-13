@@ -3,7 +3,7 @@
  * Plugin Name: Dekode Resets
  * Plugin URI: https://github.com/DekodeInteraktiv/dekode-mu-plugins
  * Description: This a collection of the basic functionality used by Dekode to optimize WordPress.
- * Version: 0.0.9
+ * Version: 1.0.0
  * Author: Dekode
  * Author URI: https://dekode.no
  * License: GPL-3.0-or-later
