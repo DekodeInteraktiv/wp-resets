@@ -17,6 +17,7 @@ declare( strict_types = 1 );
 namespace Dekode\Resets;
 
 add_action( 'muplugins_loaded', __NAMESPACE__ . '\load_mu_textdomain' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_must_haves' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
 
 /**
