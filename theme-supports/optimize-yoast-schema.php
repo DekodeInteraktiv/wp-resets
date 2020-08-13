@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\Schema;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\Schema;
 
 add_filter( 'disable_wpseo_json_ld_search', '__return_true' );
 

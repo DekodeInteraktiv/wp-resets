@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\ListTable;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\ListTable;
 
 /**
  * Optimize list tables.

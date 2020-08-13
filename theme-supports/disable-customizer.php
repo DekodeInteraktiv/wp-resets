@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\Customizer;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\Customizer;
 
 /**
  * Do not allow customizer for this project.

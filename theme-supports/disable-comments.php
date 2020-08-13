@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\Comments;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\Comments;
 
 /**
  * Disable support for comments on post types.

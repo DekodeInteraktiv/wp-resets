@@ -2,9 +2,6 @@
 <ruleset>
 	<file>.</file>
 	<arg name="extensions" value="php" />
-	<config name="testVersion" value="7.0-" />
-	<rule ref="Dekode">
-		<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
-		<exclude name="WordPress.PHP.DisallowShortTernary.Found" />
-	</rule>
+	<config name="testVersion" value="7.1-" />
+	<rule ref="Dekode" />
 </ruleset>

@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\xmlrpc;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\xmlrpc;
 
 /**
  * Remove the X-Pingback HTTP header
