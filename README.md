@@ -1,4 +1,4 @@
-# Dekode MU Plugins
+# Dekode Resets
 
 ## Table of Contents
 - [Description](#description)
