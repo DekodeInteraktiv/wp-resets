@@ -12,6 +12,8 @@ This a collection of the basic functionality used by Dekode to optimize WordPres
 This mu-plugin is not loaded in WordPress by default. You'll need to manually create a
 loader file in your mu-plugins folder.
 
+You should also add the plugin to your project `.gitignore` file.
+
 ```php
 <?php
 /**
