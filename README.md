@@ -10,8 +10,21 @@ This a collection of the basic functionality used by Dekode to optimize WordPres
 
 ## Load
 This mu-plugin is not loaded in WordPress by default. You'll need to manually create a
-file in x/mu-plugins/ and require/include the main file resets.php located in the root
-directory of this plugin.
+loader file in your mu-plugins folder.
+
+```php
+<?php
+/**
+ * Autoloader for dekode-resets
+ *
+ */
+
+declare( strict_types = 1 );
+
+if ( file_exists( trailingslashit( __DIR__ ) . 'dekode-resets/resets.php' ) ) {
+	require trailingslashit( __DIR__ ) . 'dekode-resets/resets.php';
+}
+```
 
 ## Usage
 ```
