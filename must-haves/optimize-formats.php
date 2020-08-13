@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\Formats;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\Formats;
 
 /*
  * Allow object-position in style attribute.

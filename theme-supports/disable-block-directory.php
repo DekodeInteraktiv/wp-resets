@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\BlockDirectory;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\BlockDirectory;
 
 /**
  * Disable block directory

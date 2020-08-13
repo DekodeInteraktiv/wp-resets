@@ -5,8 +5,8 @@
  * @package Dekode\MU
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU\ThemeSupports\Cleanup;
+declare( strict_types = 1 );
+namespace Dekode\Resets\ThemeSupports\Cleanup;
 
 /**
  * Optimize admin dashboard

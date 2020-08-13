@@ -1,12 +1,20 @@
 <?php
 /**
- * Theme supports
+ * Plugin Name: Dekode Resets
+ * Plugin URI: https://github.com/DekodeInteraktiv/dekode-mu-plugins
+ * Description: This a collection of the basic functionality used by Dekode to optimize WordPress.
+ * Version: 0.0.9
+ * Author: Dekode
+ * Author URI: https://dekode.no
+ * License: GPL-3.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
  *
- * @package Dekode\MU
+ * @package Dekode\Resets
+ * @author Dekode
  */
 
-declare( strict_types=1 );
-namespace Dekode\MU;
+declare( strict_types = 1 );
+namespace Dekode\Resets;
 
 add_action( 'muplugins_loaded', __NAMESPACE__ . '\load_mu_textdomain' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
