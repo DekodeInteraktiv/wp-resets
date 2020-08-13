@@ -21,15 +21,5 @@
 		"build-for-deploy" : [
 			"@composer install --no-dev"
 		]
-	},
-	"archive": {
-		"exclude": [
-			".editorconfig",
-			".gitignore",
-			"composer.json",
-			"composer.lock",
-			"phpcs.xml.dist",
-			".github"
-		]
 	}
 }
