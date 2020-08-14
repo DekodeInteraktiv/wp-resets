@@ -43,6 +43,7 @@ function setup_custom_project() {
 	add_theme_support( 'optimize-yoast-schema' );
 	add_theme_support( 'post-to-article' );
 	add_theme_support( 'searchwp-norwegian-stopwords' );
+	add_theme_support( 'youtube-embed-nocookie' );
 }
 add_action( 'after_setup_theme', 'setup_custom_project' );
 
