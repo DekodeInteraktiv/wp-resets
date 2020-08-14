@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Dekode Resets
- * Plugin URI: https://github.com/DekodeInteraktiv/dekode-mu-plugins
+ * Plugin URI: https://github.com/DekodeInteraktiv/resets
  * Description: This a collection of the basic functionality used by Dekode to optimize WordPress.
  * Version: 1.0.0
  * Author: Dekode
@@ -16,7 +16,7 @@
 declare( strict_types = 1 );
 namespace Dekode\Resets;
 
-add_action( 'muplugins_loaded', __NAMESPACE__ . '\load_mu_textdomain' );
+add_action( 'muplugins_loaded', __NAMESPACE__ . '\\load_mu_textdomain' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_must_haves' );
 add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
 
@@ -52,8 +52,9 @@ function manage_theme_support() {
 	\require_if_theme_supports( 'disable-emoji', $base_path . 'disable-emoji.php' );
 	\require_if_theme_supports( 'disable-feeds', $base_path . 'disable-feeds.php' );
 	\require_if_theme_supports( 'disable-xmlrpc', $base_path . 'disable-xmlrpc.php' );
-	\require_if_theme_supports( 'optimize-embeds', $base_path . 'optimize-embeds.php' );
+	\require_if_theme_supports( 'optimize-embeds', $base_path . 'embeds/optimize-embeds.php' );
 	\require_if_theme_supports( 'optimize-wp-head', $base_path . 'optimize-wp-head.php' );
 	\require_if_theme_supports( 'optimize-yoast-schema', $base_path . 'optimize-yoast-schema.php' );
 	\require_if_theme_supports( 'post-to-article', $base_path . 'post-to-article.php' );
+	\require_if_theme_supports( 'youtube-embed-nocookie', $base_path . 'embeds/youtube-embed-nocookie.php' );
 }
