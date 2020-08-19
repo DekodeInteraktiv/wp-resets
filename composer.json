@@ -1,5 +1,5 @@
 {
-	"name": "dekodeinteraktiv/resets",
+	"name": "dekode/wp-resets",
 	"description": "WordPress must-use plugin for Dekode",
 	"type": "wordpress-muplugin",
 	"license": "GPL-3.0-or-later",

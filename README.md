@@ -1,4 +1,4 @@
-# Dekode Resets
+# Dekode WP Resets
 
 ## Table of Contents
 - [Description](#description)
@@ -17,14 +17,14 @@ You should also add the plugin to your project `.gitignore` file.
 ```php
 <?php
 /**
- * Autoloader for dekode-resets
+ * Autoloader for wp-resets
  *
  */
 
 declare( strict_types = 1 );
 
-if ( file_exists( trailingslashit( __DIR__ ) . 'dekode-resets/resets.php' ) ) {
-	require trailingslashit( __DIR__ ) . 'dekode-resets/resets.php';
+if ( file_exists( trailingslashit( __DIR__ ) . 'wp-resets/resets.php' ) ) {
+	require trailingslashit( __DIR__ ) . 'wp-resets/resets.php';
 }
 ```
 
