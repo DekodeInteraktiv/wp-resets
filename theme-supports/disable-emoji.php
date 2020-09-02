@@ -2,7 +2,7 @@
 /**
  * Simple set of filters to disable emoji functionality.
  *
- * @package Dekode\MU
+ * @package Dekode\Resets
  */
 
 declare( strict_types = 1 );

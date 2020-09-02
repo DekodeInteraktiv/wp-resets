@@ -2,7 +2,7 @@
 /**
  * Disable XML-RPC.
  *
- * @package Dekode\MU
+ * @package Dekode\Resets
  */
 
 declare( strict_types = 1 );

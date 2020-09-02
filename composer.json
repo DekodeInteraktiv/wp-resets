@@ -7,7 +7,7 @@
 		"php": ">=7.0"
 	},
 	"require-dev": {
-		"dekodeinteraktiv/coding-standards": "^3.3"
+		"dekode/coding-standards": "3.4.0"
 	},
 	"scripts": {
 		"lint" : [
