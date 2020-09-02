@@ -22,7 +22,7 @@ namespace Dekode\Resets;
 
 /**
  * Load textdomain
- * wp i18n make-pot ./ --slug=languages/dekode-mu --domain=dekode-mu --exclude=vendor
+ * wp i18n make-pot ./ --slug=languages/wp-resets --domain=wp-resets --exclude=vendor
  */
 function load_mu_textdomain() {
 	\load_muplugin_textdomain( 'wp-resets', 'wp-resets/languages' );
