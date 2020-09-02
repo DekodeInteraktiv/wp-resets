@@ -1,16 +1,38 @@
+# Copyright (C) 2020 Dekode
+# This file is distributed under the same license as the Dekode WP Resets plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Dekode WP Resets 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/languages/wp-resets\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-12-02T08:11:07+00:00\n"
+"POT-Creation-Date: 2020-09-02T07:00:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
-"X-Domain: dekode-mu\n"
+"X-Domain: wp-resets\n"
+
+#. Plugin Name of the plugin
+msgid "Dekode WP Resets"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/DekodeInteraktiv/wp-resets"
+msgstr ""
+
+#. Description of the plugin
+msgid "This a collection of the basic functionality used by Dekode to optimize WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "Dekode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://dekode.no"
+msgstr ""
 
 #: theme-supports/admin-cards.php:36
 msgid "Archive image"

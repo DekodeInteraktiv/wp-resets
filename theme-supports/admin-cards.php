@@ -2,7 +2,7 @@
 /**
  * Optimize list table columns.
  *
- * @package Dekode\MU
+ * @package Dekode\Resets
  */
 
 declare( strict_types = 1 );
@@ -33,8 +33,8 @@ add_filter( 'manage_product_columns', __NAMESPACE__ . '\\columns' );
  * @return array $columns
  */
 function list_columns( array $columns ) : array {
-	$columns['list-image']   = esc_html__( 'Archive image', 'dekode-mu' );
-	$columns['list-excerpt'] = esc_html__( 'Archive excerpt', 'dekode-mu' );
+	$columns['list-image']   = esc_html__( 'Archive image', 'wp-resets' );
+	$columns['list-excerpt'] = esc_html__( 'Archive excerpt', 'wp-resets' );
 
 	return $columns;
 }

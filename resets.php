@@ -16,16 +16,16 @@
 declare( strict_types = 1 );
 namespace Dekode\Resets;
 
-add_action( 'muplugins_loaded', __NAMESPACE__ . '\\load_mu_textdomain' );
-add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_must_haves' );
-add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
+\add_action( 'muplugins_loaded', __NAMESPACE__ . '\\load_mu_textdomain' );
+\add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_must_haves' );
+\add_action( 'after_setup_theme', __NAMESPACE__ . '\\manage_theme_support', 100 );
 
 /**
  * Load textdomain
- * wp i18n make-pot ./ --slug=languages/dekode-mu --domain=dekode-mu --exclude=vendor
+ * wp i18n make-pot ./ --slug=languages/wp-resets --domain=wp-resets --exclude=vendor
  */
 function load_mu_textdomain() {
-	\load_muplugin_textdomain( 'dekode-mu', 'dekode-mu-plugins/languages' );
+	\load_muplugin_textdomain( 'wp-resets', 'wp-resets/languages' );
 }
 
 /**

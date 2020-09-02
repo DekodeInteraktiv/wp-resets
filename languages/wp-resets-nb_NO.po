@@ -1,18 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Dekode WP Resets\n"
+"POT-Creation-Date: 2020-09-02 08:36+0200\n"
+"PO-Revision-Date: 2020-09-02 08:39+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-12-02T08:11:07+00:00\n"
-"PO-Revision-Date: 2019-12-02 09:13+0100\n"
-"X-Generator: Poedit 2.2.4\n"
-"X-Domain: dekode-mu\n"
-"Last-Translator: \n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: nb_NO\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: resets.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
 
 #: theme-supports/admin-cards.php:36
 msgid "Archive image"
@@ -58,3 +66,25 @@ msgstr "Ingen artikler funnet"
 #: theme-supports/post-to-article.php:40
 msgid "No Articles found in Trash"
 msgstr "Ingen artikler funnet i søppelkurven"
+
+#. Plugin Name of the plugin/theme
+msgid "Dekode WP Resets"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/DekodeInteraktiv/wp-resets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This a collection of the basic functionality used by Dekode to optimize "
+"WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dekode"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dekode.no"
+msgstr ""
