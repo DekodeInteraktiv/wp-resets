@@ -3,7 +3,7 @@
  * Plugin Name: Dekode WP Resets
  * Plugin URI: https://github.com/DekodeInteraktiv/wp-resets
  * Description: This a collection of the basic functionality used by Dekode to optimize WordPress.
- * Version: 2.0.2
+ * Version: 2.0.3
  * Author: Dekode
  * Author URI: https://dekode.no
  * License: GPL-3.0-or-later

@@ -14,6 +14,10 @@ namespace Dekode\Resets\ThemeSupports\Post;
 function change_menu_label() {
 	global $menu, $submenu;
 
+	if ( ! current_user_can( 'manage_options' ) ) {
+		return;
+	}
+
 	$menu[5][0]                 = esc_html__( 'Articles', 'wp-resets' ); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 	$submenu['edit.php'][5][0]  = esc_html__( 'Articles', 'wp-resets' ); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 	$submenu['edit.php'][10][0] = esc_html__( 'Add Articles', 'wp-resets' ); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
